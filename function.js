@@ -27,7 +27,6 @@ function getFinalScore(value){
 const i = getFinalScore(40);
 console.log(`${i}`);
 
-const text = "monyet";
 //return untuk menghentikan program
 function isContains(array, searchValue) {
     for ( const property of array){
