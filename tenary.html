@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tenary</title>
+</head>
+<body>
+    <!-- Seblum penggunaan Tenary -->
+     <script>
+        const nilai = 60;
+        let ucapan;
+
+        if(nilai >= 75){
+            ucapan = "Selamat Anda Lulus";
+        }else{
+            ucapan ="Silahkan coba lagi";
+        }
+
+        document.writeln(`<p>${ucapan}</p>`);
+     </script>
+
+     <!-- sesudah pake tenary -->
+    <script>
+        const nilai1 = 90;
+        const ucapan1 = nilai1 >= 75 ? "selamat anda lulus": "Silahkan coba lagi";
+
+        document.writeln(`<p>${ucapan1}</p`);
+    </script>
+</body>
+</html>
