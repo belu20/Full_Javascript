@@ -1,7 +1,7 @@
 function cinta(array, searchValue){
     for (const love of array){
         if (love === searchValue){
-            return love;
+            return true;
         }
     }
     return false;
