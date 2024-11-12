@@ -17,3 +17,24 @@ function giveMeName(callback){
 
 giveMeName(item)
 giveMeName(say);
+
+
+//function anonymous
+
+let say1 = function(name){
+    console.info(`Hallo ${name}`);
+}
+
+say1 ("isan");
+
+// function di dalam parameter
+
+function nameGive(callback1){
+    callback1("ihsan");
+}
+
+nameGive(say);
+
+nameGive(function(name){
+    console.info("hai" + " " + name)
+})
